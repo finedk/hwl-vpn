@@ -1,0 +1,99 @@
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+.buildlog/
+.history
+.DS_Store
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-preload-cache/
+.pub/
+build/
+**/generated_plugin_registrant.dart
+
+# Android related
+**/android/.gradle/
+**/android/local.properties
+**/android/out/
+**/android/app/build/
+**/android/app/src/main/res/generated/
+**/android/captures/
+**/android/key.properties
+*.jks
+*.keystore
+
+# iOS/macOS related
+Libbox.xcframework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/GeneratedPluginRegistrant.[mh]
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Runner/xcuserdata/
+**/ios/Runner/project.xcworkspace/xcuserdata/
+**/ios/DerivedData/
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Pods/
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Windows
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/generated_plugins.cmake
+
+# Linux
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/generated_plugins.cmake
+
+# Coverage
+coverage/
+
+# Symbols
+app.*.symbols
+
+# Large binary files
+*.exe
+*.zip
+*.aar
+Output/
+
+# Large binary files - DO NOT COMMIT
+*.exe
+*.zip
+*.aar
+Output/
+android/app/libs/
+lib.zip
+VC_redist.x64.exe
+
+# Files > 5MB
+*.dll
+*.so
+*.dylib
+*.bin
+*.exe
+*.zip
+*.aar
+*.framework
+*.a
+*.o
+*.hprof
